@@ -27,9 +27,9 @@ class ViewController: UIViewController {
         self.quebecTaxesObj = QuebecTaxes()
         self.labelNumberToDisplay.text = self.informationToDisplay(theSum: self.addUpArray())
         self.totalAmount = self.addUpArray()
-        if self.plusButton.alpha == 0.2 {
-            self.plusSign.alpha = 1.0
-        }
+    //    if self.plusButton.alpha == 0.2 {
+        //    self.plusSign.alpha = 1.0
+      //  }
         self.h = self.deviceHeight.frame.size.height
         self.w = self.deviceHeight.frame.size.width + 170
     }
