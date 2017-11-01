@@ -21,8 +21,10 @@ class Singleton
         
         if let budget = defaults.object(forKey: "budget") {
             self.theBudget = budget as! Int
+     
         } else {
             defaults.set(theBudget, forKey: "budget")
+          
         }
     }
     

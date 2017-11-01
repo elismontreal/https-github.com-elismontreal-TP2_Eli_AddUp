@@ -88,6 +88,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     //# MARK: - settingBudget
     @IBAction func settingBudget(_ sender: UIButton) {
         Singleton.sharedInstance.setBudget(aBudget: self.budget)
+        
     }
 }
 //=================================
