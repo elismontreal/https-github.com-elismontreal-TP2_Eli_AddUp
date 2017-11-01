@@ -43,6 +43,7 @@
 		4CAD05AF1FA7F22E006B6F40 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD05AE1FA7F22E006B6F40 /* 1.png */; };
 		4CAD05B11FA7F238006B6F40 /* ponto.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD05B01FA7F238006B6F40 /* ponto.png */; };
 		4CAD05B31FA7F367006B6F40 /* +tx.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD05B21FA7F367006B6F40 /* +tx.png */; };
+		4CFC961A1FAA18B200749037 /* MichiganTaxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC96191FAA18B200749037 /* MichiganTaxe.swift */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
 		9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */; };
@@ -90,6 +91,7 @@
 		4CAD05AE1FA7F22E006B6F40 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		4CAD05B01FA7F238006B6F40 /* ponto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ponto.png; sourceTree = "<group>"; };
 		4CAD05B21FA7F367006B6F40 /* +tx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "+tx.png"; sourceTree = "<group>"; };
+		4CFC96191FAA18B200749037 /* MichiganTaxe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganTaxe.swift; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				9D741FF11D74BA260064B267 /* Singleton.swift */,
 				9D4DEC4D1D6DDE39001490B9 /* ViewController.swift */,
 				9DC7199B1D77229C0063670B /* QuebecTaxes.swift */,
+				4CFC96191FAA18B200749037 /* MichiganTaxe.swift */,
 				9D7E0FCC1D75D67800D2ADFA /* TableController.swift */,
 				9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */,
 				9D4DEC521D6DDE39001490B9 /* Assets.xcassets */,
@@ -299,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D7E0FCD1D75D67800D2ADFA /* TableController.swift in Sources */,
+				4CFC961A1FAA18B200749037 /* MichiganTaxe.swift in Sources */,
 				9D4DEC4E1D6DDE39001490B9 /* ViewController.swift in Sources */,
 				9D741FF21D74BA260064B267 /* Singleton.swift in Sources */,
 				9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */,
