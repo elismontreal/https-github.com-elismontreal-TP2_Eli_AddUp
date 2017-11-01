@@ -36,8 +36,23 @@
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ei0-gN-114" userLabel="top">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="feO-B3-xSH">
+                                        <rect key="frame" x="321.5" y="34" width="45.5" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="feO-B3-xSH" secondAttribute="height" multiplier="5:6" id="vzW-Ej-5nu"/>
+                                        </constraints>
+                                        <state key="normal" image="lista.png"/>
+                                        <connections>
+                                            <segue destination="DFU-fL-koU" kind="presentation" id="X9K-Dc-kop"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ei0-gN-114" secondAttribute="height" multiplier="4:1" id="F1a-qT-Ngm"/>
+                                    <constraint firstAttribute="trailing" secondItem="feO-B3-xSH" secondAttribute="trailing" constant="8" id="GuI-FP-wWn"/>
+                                    <constraint firstAttribute="bottom" secondItem="feO-B3-xSH" secondAttribute="bottom" constant="5" id="NjJ-nj-y4X"/>
+                                    <constraint firstItem="feO-B3-xSH" firstAttribute="top" secondItem="Ei0-gN-114" secondAttribute="top" constant="34" id="bnU-Pf-hn1"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVz-rk-PG1">
@@ -287,6 +302,7 @@
                                             <constraint firstAttribute="trailing" secondItem="Ddy-f3-Tt4" secondAttribute="trailing" id="3eG-lh-Uee"/>
                                             <constraint firstItem="GPH-ye-1zk" firstAttribute="top" secondItem="NtW-Ts-qS2" secondAttribute="topMargin" id="7T2-VK-l5F"/>
                                             <constraint firstAttribute="trailing" secondItem="Ddy-f3-Tt4" secondAttribute="trailing" id="A7O-Pb-KHn"/>
+                                            <constraint firstAttribute="trailing" secondItem="GPH-ye-1zk" secondAttribute="trailing" constant="120" id="CH6-4X-Xth"/>
                                             <constraint firstItem="GPH-ye-1zk" firstAttribute="top" secondItem="5NM-Yl-vjg" secondAttribute="top" id="E1c-p6-XhL"/>
                                             <constraint firstItem="Ddy-f3-Tt4" firstAttribute="top" secondItem="NtW-Ts-qS2" secondAttribute="top" constant="32" id="Eyl-7T-pBH"/>
                                             <constraint firstItem="Ddy-f3-Tt4" firstAttribute="leading" secondItem="NtW-Ts-qS2" secondAttribute="leading" constant="254" id="Q07-XZ-AqM"/>
@@ -297,7 +313,7 @@
                                             <constraint firstAttribute="bottom" secondItem="5NM-Yl-vjg" secondAttribute="bottom" constant="68" id="jX8-uC-R8D"/>
                                             <constraint firstItem="5NM-Yl-vjg" firstAttribute="leading" secondItem="NtW-Ts-qS2" secondAttribute="leadingMargin" id="m44-HX-KpV"/>
                                             <constraint firstAttribute="bottom" secondItem="Ddy-f3-Tt4" secondAttribute="bottom" constant="33" id="pkU-FV-0aB"/>
-                                            <constraint firstItem="GPH-ye-1zk" firstAttribute="leading" secondItem="5NM-Yl-vjg" secondAttribute="trailing" constant="74" id="wHl-Gr-T2N"/>
+                                            <constraint firstItem="GPH-ye-1zk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5NM-Yl-vjg" secondAttribute="trailing" symbolic="YES" id="wHl-Gr-T2N"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -400,18 +416,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdP-DN-iNt" userLabel="back">
                                 <rect key="frame" x="0.0" y="509" width="375" height="158"/>
                                 <subviews>
-                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-p0-XUY">
-                                        <rect key="frame" x="20" y="65" width="152" height="216"/>
-                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <connections>
-                                            <outlet property="dataSource" destination="DFU-fL-koU" id="HeX-il-Kvg"/>
-                                            <outlet property="delegate" destination="DFU-fL-koU" id="SWY-vm-ssi"/>
-                                        </connections>
-                                    </pickerView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg">
-                                        <rect key="frame" x="240" y="65" width="108" height="78"/>
+                                        <rect key="frame" x="252" y="37" width="108" height="78"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="108" id="vlG-ye-m1u"/>
+                                            <constraint firstAttribute="width" secondItem="FlN-PR-Jcg" secondAttribute="height" multiplier="18:13" id="uhr-iN-lCo"/>
                                         </constraints>
                                         <state key="normal" image="bugget1.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -420,14 +428,25 @@
                                             <action selector="settingBudget:" destination="DFU-fL-koU" eventType="touchUpInside" id="LRj-nd-xZl"/>
                                         </connections>
                                     </button>
+                                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-p0-XUY">
+                                        <rect key="frame" x="8" y="35" width="157.5" height="88"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="2dO-p0-XUY" secondAttribute="height" multiplier="152:85" id="DTT-82-xBd"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="dataSource" destination="DFU-fL-koU" id="HeX-il-Kvg"/>
+                                            <outlet property="delegate" destination="DFU-fL-koU" id="SWY-vm-ssi"/>
+                                        </connections>
+                                    </pickerView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="FlN-PR-Jcg" secondAttribute="trailing" constant="27" id="8W5-kW-o3f"/>
-                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="leading" secondItem="2dO-p0-XUY" secondAttribute="trailing" constant="68" id="I2g-iW-WdX"/>
-                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="65" id="TyH-i2-5QQ"/>
-                                    <constraint firstAttribute="bottom" secondItem="FlN-PR-Jcg" secondAttribute="bottom" constant="15" id="Vmi-Oq-rkE"/>
-                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="leading" secondItem="YdP-DN-iNt" secondAttribute="leading" constant="20" id="ZeA-8J-zUE"/>
-                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="top" secondItem="2dO-p0-XUY" secondAttribute="top" id="ftF-Qp-G4x"/>
+                                    <constraint firstAttribute="bottom" secondItem="2dO-p0-XUY" secondAttribute="bottom" constant="35" id="3Ex-eD-S5t"/>
+                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="37" id="4kt-R0-PsU"/>
+                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="35" id="NO4-Sk-IY2"/>
+                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="leading" secondItem="YdP-DN-iNt" secondAttribute="leading" constant="8" id="PTO-Kn-qOz"/>
+                                    <constraint firstAttribute="bottom" secondItem="FlN-PR-Jcg" secondAttribute="bottom" constant="43" id="YAq-GN-srQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="FlN-PR-Jcg" secondAttribute="trailing" constant="15" id="iqN-8b-Asg"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -474,6 +493,7 @@
         <image name="bugget1.png" width="240" height="149"/>
         <image name="erase1.png" width="182" height="102"/>
         <image name="fundo1.png" width="750" height="1334"/>
+        <image name="lista.png" width="300" height="300"/>
         <image name="meioScrool.png" width="750" height="853"/>
         <image name="pag2.png" width="750" height="1334"/>
         <image name="ponto.png" width="116" height="146"/>
