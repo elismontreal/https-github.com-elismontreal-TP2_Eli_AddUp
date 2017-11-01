@@ -46,6 +46,7 @@
 		4CB179E91FAA6E6B0035A0EE /* frente1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB179E21FAA6E6B0035A0EE /* frente1.png */; };
 		4CB179EB1FAA6E6B0035A0EE /* pagina3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB179E41FAA6E6B0035A0EE /* pagina3.png */; };
 		4CB179EC1FAA6E6B0035A0EE /* frente2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB179E51FAA6E6B0035A0EE /* frente2.png */; };
+		4CB179EE1FAA78FB0035A0EE /* pagina1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB179ED1FAA78FB0035A0EE /* pagina1.png */; };
 		4CFC961A1FAA18B200749037 /* MichiganTaxe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC96191FAA18B200749037 /* MichiganTaxe.swift */; };
 		9D355DC81D70946100D4D755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4F1D6DDE39001490B9 /* Main.storyboard */; };
 		9D4DEC4C1D6DDE39001490B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */; };
@@ -97,6 +98,7 @@
 		4CB179E21FAA6E6B0035A0EE /* frente1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frente1.png; sourceTree = "<group>"; };
 		4CB179E41FAA6E6B0035A0EE /* pagina3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pagina3.png; sourceTree = "<group>"; };
 		4CB179E51FAA6E6B0035A0EE /* frente2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frente2.png; sourceTree = "<group>"; };
+		4CB179ED1FAA78FB0035A0EE /* pagina1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pagina1.png; sourceTree = "<group>"; };
 		4CFC96191FAA18B200749037 /* MichiganTaxe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MichiganTaxe.swift; sourceTree = "<group>"; };
 		9D4DEC481D6DDE38001490B9 /* AddUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DEC4B1D6DDE39001490B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		4C382C9D1FA7E25E00206E74 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4CB179ED1FAA78FB0035A0EE /* pagina1.png */,
 				4CB179E21FAA6E6B0035A0EE /* frente1.png */,
 				4CB179E51FAA6E6B0035A0EE /* frente2.png */,
 				4CB179DF1FAA6E6A0035A0EE /* pagina2.png */,
@@ -301,6 +304,7 @@
 				4C382CDC1FA7E28300206E74 /* back.png in Resources */,
 				4CAD05AD1FA7EC9B006B6F40 /* meioScrool.png in Resources */,
 				4C382CC91FA7E28300206E74 /* top.png in Resources */,
+				4CB179EE1FAA78FB0035A0EE /* pagina1.png in Resources */,
 				9D4DEC531D6DDE39001490B9 /* Assets.xcassets in Resources */,
 				4CAD05AF1FA7F22E006B6F40 /* 1.png in Resources */,
 			);

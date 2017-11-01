@@ -8,6 +8,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13526"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -31,7 +32,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frente1.png" translatesAutoresizingMaskIntoConstraints="NO" id="crP-Am-Dnt" userLabel="fundo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frente2.png" translatesAutoresizingMaskIntoConstraints="NO" id="crP-Am-Dnt" userLabel="fundo">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ei0-gN-114" userLabel="top">
@@ -285,9 +286,9 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddy-f3-Tt4">
-                                                <rect key="frame" x="240" y="32" width="121" height="48"/>
+                                                <rect key="frame" x="237.5" y="38.5" width="87.5" height="36"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" secondItem="Ddy-f3-Tt4" secondAttribute="height" multiplier="121:48" id="qZ9-Xq-qKB"/>
+                                                    <constraint firstAttribute="width" secondItem="Ddy-f3-Tt4" secondAttribute="height" multiplier="29:12" id="BLt-ab-TTg"/>
                                                 </constraints>
                                                 <state key="normal" image="erase1.png">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -299,16 +300,16 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="GPH-ye-1zk" secondAttribute="bottom" constant="23" id="7TI-Hf-zQZ"/>
+                                            <constraint firstItem="Ddy-f3-Tt4" firstAttribute="centerX" secondItem="NtW-Ts-qS2" secondAttribute="centerX" multiplier="1.5" id="NXI-Ry-DKP"/>
                                             <constraint firstAttribute="trailing" secondItem="GPH-ye-1zk" secondAttribute="trailing" constant="163" id="QLa-X2-KAX"/>
                                             <constraint firstAttribute="bottom" secondItem="5NM-Yl-vjg" secondAttribute="bottom" constant="73" id="RFl-NL-FIU"/>
                                             <constraint firstAttribute="width" secondItem="NtW-Ts-qS2" secondAttribute="height" multiplier="375:113" id="T1p-WR-nLu"/>
                                             <constraint firstItem="GPH-ye-1zk" firstAttribute="top" secondItem="NtW-Ts-qS2" secondAttribute="top" constant="22" id="Wrj-B9-Qg1"/>
                                             <constraint firstItem="5NM-Yl-vjg" firstAttribute="top" secondItem="NtW-Ts-qS2" secondAttribute="topMargin" id="YAp-Yz-z1C"/>
+                                            <constraint firstItem="Ddy-f3-Tt4" firstAttribute="centerY" secondItem="NtW-Ts-qS2" secondAttribute="centerY" id="aAE-84-Ot7"/>
                                             <constraint firstItem="5NM-Yl-vjg" firstAttribute="leading" secondItem="NtW-Ts-qS2" secondAttribute="leadingMargin" id="fW5-fC-Fmn"/>
-                                            <constraint firstAttribute="bottom" secondItem="Ddy-f3-Tt4" secondAttribute="bottom" constant="33" id="k0f-68-GIc"/>
-                                            <constraint firstItem="Ddy-f3-Tt4" firstAttribute="top" secondItem="NtW-Ts-qS2" secondAttribute="top" constant="32" id="w31-d5-LxG"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ddy-f3-Tt4" secondAttribute="trailing" constant="50" id="sae-p4-4Z9"/>
                                             <constraint firstItem="GPH-ye-1zk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="5NM-Yl-vjg" secondAttribute="trailing" symbolic="YES" id="yBR-Ut-EGe"/>
-                                            <constraint firstAttribute="trailing" secondItem="Ddy-f3-Tt4" secondAttribute="trailing" constant="14" id="zht-ws-d1n"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -362,7 +363,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pagina2.png" translatesAutoresizingMaskIntoConstraints="NO" id="j7P-Ss-gbc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pagina1.png" translatesAutoresizingMaskIntoConstraints="NO" id="j7P-Ss-gbc">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Bd-jl-Cwy">
@@ -372,7 +373,7 @@
                                         <rect key="frame" x="12" y="12" width="351" height="370"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="sectionIndexColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <connections>
                                             <outlet property="dataSource" destination="DFU-fL-koU" id="W48-oF-k3w"/>
                                             <outlet property="delegate" destination="DFU-fL-koU" id="hoM-6e-Uga"/>
@@ -411,24 +412,20 @@
                                 <rect key="frame" x="0.0" y="509" width="375" height="158"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FlN-PR-Jcg">
-                                        <rect key="frame" x="252" y="37" width="108" height="78"/>
+                                        <rect key="frame" x="225" y="64" width="113" height="62"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="FlN-PR-Jcg" secondAttribute="height" multiplier="18:13" id="uhr-iN-lCo"/>
+                                            <constraint firstAttribute="width" secondItem="FlN-PR-Jcg" secondAttribute="height" multiplier="47:26" id="fhX-bi-VZ5"/>
                                         </constraints>
                                         <state key="normal" image="bugget1.png">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="budgetButton:" destination="HXv-tN-CQ0" eventType="touchUpInside" id="h7c-se-Ncb"/>
                                             <action selector="settingBudget:" destination="DFU-fL-koU" eventType="touchUpInside" id="LRj-nd-xZl"/>
                                         </connections>
                                     </button>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-p0-XUY">
-                                        <rect key="frame" x="8" y="35" width="157.5" height="88"/>
+                                        <rect key="frame" x="0.0" y="16" width="188" height="142"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="2dO-p0-XUY" secondAttribute="height" multiplier="152:85" id="DTT-82-xBd"/>
-                                        </constraints>
                                         <connections>
                                             <outlet property="dataSource" destination="DFU-fL-koU" id="HeX-il-Kvg"/>
                                             <outlet property="delegate" destination="DFU-fL-koU" id="SWY-vm-ssi"/>
@@ -436,12 +433,13 @@
                                     </pickerView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="2dO-p0-XUY" secondAttribute="bottom" constant="35" id="3Ex-eD-S5t"/>
-                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="37" id="4kt-R0-PsU"/>
-                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="35" id="NO4-Sk-IY2"/>
-                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="leading" secondItem="YdP-DN-iNt" secondAttribute="leading" constant="8" id="PTO-Kn-qOz"/>
-                                    <constraint firstAttribute="bottom" secondItem="FlN-PR-Jcg" secondAttribute="bottom" constant="43" id="YAq-GN-srQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="FlN-PR-Jcg" secondAttribute="trailing" constant="15" id="iqN-8b-Asg"/>
+                                    <constraint firstAttribute="bottom" secondItem="2dO-p0-XUY" secondAttribute="bottom" id="F3t-Yq-sOx"/>
+                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="centerY" secondItem="YdP-DN-iNt" secondAttribute="centerY" multiplier="1.2" id="Lsf-gj-pUB"/>
+                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="top" secondItem="YdP-DN-iNt" secondAttribute="top" constant="16" id="Mtq-ff-Mqi"/>
+                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="leading" secondItem="2dO-p0-XUY" secondAttribute="trailing" constant="37" id="UCx-VW-5Kl"/>
+                                    <constraint firstItem="2dO-p0-XUY" firstAttribute="leading" secondItem="YdP-DN-iNt" secondAttribute="leading" id="Yrp-vR-5gX"/>
+                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="width" secondItem="YdP-DN-iNt" secondAttribute="width" multiplier="0.3" id="dzL-hr-ThC"/>
+                                    <constraint firstItem="FlN-PR-Jcg" firstAttribute="centerX" secondItem="YdP-DN-iNt" secondAttribute="centerX" multiplier="1.5" id="tEe-5a-ifQ"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -468,14 +466,13 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FgO-9I-rK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <exit id="HXv-tN-CQ0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="636" y="96.7016491754123"/>
         </scene>
     </scenes>
     <resources>
-        <image name="+.png" width="220" height="149"/>
-        <image name="+tx.png" width="220" height="149"/>
+        <image name="+.png" width="117" height="76"/>
+        <image name="+tx.png" width="117" height="76"/>
         <image name="0.png" width="259" height="149"/>
         <image name="1.png" width="116" height="146"/>
         <image name="2.png" width="116" height="146"/>
@@ -486,11 +483,11 @@
         <image name="7.png" width="116" height="146"/>
         <image name="8.png" width="116" height="146"/>
         <image name="9.png" width="116" height="146"/>
-        <image name="bugget1.png" width="240" height="149"/>
-        <image name="erase1.png" width="182" height="102"/>
-        <image name="frente1.png" width="750" height="1334"/>
+        <image name="bugget1.png" width="218" height="111"/>
+        <image name="erase1.png" width="121" height="48"/>
+        <image name="frente2.png" width="750" height="1334"/>
         <image name="lista.png" width="300" height="300"/>
-        <image name="pagina2.png" width="750" height="1334"/>
+        <image name="pagina1.png" width="750" height="1334"/>
         <image name="ponto.png" width="116" height="146"/>
         <image name="return.png" width="93" height="72"/>
     </resources>
